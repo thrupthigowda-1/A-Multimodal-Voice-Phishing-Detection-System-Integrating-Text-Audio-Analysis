@@ -1,4 +1,4 @@
-# 📞 EchoGuard: Multimodal Voice Phishing Detection System
+# Multimodal Voice Phishing Detection System
 
 A multimodal AI system for detecting scam and vishing calls by combining:
 
