@@ -1,0 +1,25 @@
+# Virtual Env
+venv/
+.venv/
+
+# Data
+data/
+
+# Models
+models/
+
+# Outputs
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files
+*.pkl
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# VS Code
+.vscode/
