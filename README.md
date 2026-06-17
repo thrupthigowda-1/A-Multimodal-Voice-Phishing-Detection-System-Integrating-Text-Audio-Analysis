@@ -22,6 +22,26 @@ The system combines:
 
 ---
 
+#Architecture
+
+Audio Call
+     |
+     v
+Speech Transcript ----------+
+     |                       |
+     v                       v
+ DistilBERT            MFCC Features
+     |                       |
+     v                       v
+ Scam Score            Emotion Score
+           \           /
+            \         /
+             \       /
+              Fusion
+                |
+                v
+          Final Risk
+
 ## Datasets
 
 ### Text Dataset
@@ -51,13 +71,18 @@ Final Risk Score =
 
 ## Results
 
+<img width="587" height="735" alt="image" src="https://github.com/user-attachments/assets/c3c87733-9c9b-4eb3-8b04-5a94f09fd13f" />
+<img width="938" height="363" alt="image" src="https://github.com/user-attachments/assets/a14ed4f3-4a69-40f8-bf13-9bd4b5c01eaf" />
+<img width="688" height="336" alt="image" src="https://github.com/user-attachments/assets/d84951a9-3b68-4897-9ac3-a75f9ccf969d" />
+<img width="557" height="432" alt="image" src="https://github.com/user-attachments/assets/3656a7c2-3f74-46d0-91f9-45e901aa04f2" />
+<img width="717" height="448" alt="image" src="https://github.com/user-attachments/assets/ac068073-77d6-4ae4-943f-71a2f37b3e34" />
+<img width="407" height="136" alt="image" src="https://github.com/user-attachments/assets/175dfeb3-a490-4bca-b35f-921ca4a65e69" />
+
 | Model | Accuracy |
 |---------|---------|
 | TF-IDF + Logistic Regression | 98.8% |
 | DistilBERT | 99.2% |
 | Audio Random Forest | 92.0% |
-
----
 
 ## Future Work
 
