@@ -69,6 +69,14 @@ Final Risk Score =
 
 ---
 
+## Installation
+
+git clone <repo_url>
+cd MDPI_Vishing
+
+pip install -r requirements.txt
+jupyter notebook
+
 ## Results
 
 <img width="587" height="735" alt="image" src="https://github.com/user-attachments/assets/c3c87733-9c9b-4eb3-8b04-5a94f09fd13f" />
